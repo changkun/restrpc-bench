@@ -2,7 +2,7 @@
 
 package main
 
-import ser "github.com/changkun/restrpc-bench/server"
+import "github.com/changkun/restrpc-bench/ser"
 
 func main() {
 	go ser.RunRPC()
